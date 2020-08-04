@@ -62,7 +62,7 @@ export default class Landing extends Component {
           this.context.saveNickname(res.nickname);
           this.props.onLoginSuccess();
           this.context.handleLoginState(true);
-          this.props.history.push("/my-recipes");
+          this.props.history.push("/my-recipes/:user_id");
         })
         .catch((res) => {
           this.setState({ error: res.error, loading: false });
@@ -100,7 +100,7 @@ export default class Landing extends Component {
         .then((res) => {
           TokenService.saveAuthToken(res.authToken);
           this.props.onLoginSuccess();
-          this.props.history.push("/my-recipes");
+          this.props.history.push("/my-recipes/:user_id");
         })
         .catch((res) => {
           this.setState({ error: res.error });

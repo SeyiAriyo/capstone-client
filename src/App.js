@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Route, Link, Switch, withRouter } from 'react-router-dom'
 import Store from './store'
-
+import Nav from './Nav/nav-top';
+import Footer from './Nav/footer';
 import Recipes from './Recipes/recipes';
 import RecipePage from './RecipePage/RecipePage';
 import Favorites from './Favorites/favorites';
@@ -32,25 +33,31 @@ class App extends Component {
     render() {
         return (
           <>
-          <Recipes/>
-          <AddRecipe/>
-          <RecipePage/>
-          <Favorites/>
-          <PrivateRoute exact path='/recipes' component={Recipes} />
+            <Nav/>
+            <PrivateRoute exact path='/recipes' component={Recipes} />
 
-          <PrivateRoute path='/recipes/:id' component={RecipeExtended} />
+            <PrivateRoute path='/recipes/:id' component={RecipeExtended} />
 
-          <PrivateRoute
-              exact
-              path='/my-recipes/:user_id'
-              component={RecipePage}
+            
+
+            <PrivateRoute
+                exact
+                path='/my-recipes/:user_id'
+                component={RecipePage}
             />
 
-          <PrivateRoute path='/add-recipe' component={AddRecipe} />
+            <PrivateRoute
+              path='/my-recipes/:user_id/:id'
+              component={UserRecipeExtended}
+            />
 
-          <PrivateRoute path='/favorites' component={Favorites} />
+            <PrivateRoute path='/add-recipe' component={AddRecipe} />
 
-          <PublicOnlyRoute exact path='/' component={Landing} />
+            <PrivateRoute path='/favorites' component={Favorites} />
+
+            <PublicOnlyRoute exact path='/' component={Landing} />
+
+            <Footer/>
 
           </>
         )

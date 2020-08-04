@@ -16,7 +16,7 @@ class Favorites extends Component {
           .catch(this.context.setError);
     }
     
-    setRecipeTypeType = (e) => {
+    setRecipeType = (e) => {
         const filter = e.target.value;
         this.context.setRecipeType(filter);
     };
@@ -50,11 +50,11 @@ class Favorites extends Component {
                 <select
                 name="recipeType-search"
                 id="recipeType-search"
-                onChange={this.setRecipeTypeType}
+                onChange={this.setRecipeType}
                 >
                 <option value="all">All</option>
-                <option value='1'>Vegetarian</option>
-                <option value='2'>Vegan</option>
+                <option value='1'>Vegan</option>
+                <option value='2'>Vegetarian</option>
                 <option value='3'>Omnivorous</option>
                 </select>
             </div>

@@ -35,14 +35,14 @@ class RecipesSearch extends Component {
             <form className='recipe-search-form' onSubmit={this.handleFormSubmit}>
                 <div className='searchbar'>
                 <label htmlFor='keyword'>Keyword:{''}</label>
-                <input type='text' name='keyword' id='keyword' placeholder='Ex: Margartia' />
+                <input type='text' name='keyword' id='keyword' placeholder='Ex: Cereal' />
                 </div>
                 <div className='recipe-select-button-div'>
                 <label htmlFor='filter'>Recipe Type:</label>
                 <select name='filter' id='filter'>
                     <option value='All'>All</option>
-                    <option value='Vegitarian'>Vegetarian</option>
                     <option value='Vegan'>Vegan</option>
+                    <option value='Vegitarian'>Vegetarian</option>
                     <option value='Omnivorous'>Omnivorous</option>
                     
                 </select>

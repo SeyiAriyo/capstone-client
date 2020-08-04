@@ -150,9 +150,9 @@ class AddRecipe extends Component {
                   id="recipeType_id"
                   onChange={this.handleRecipeTypeCat}
                 >
+                  <option value="1">Vegan</option>
                   <option value="2">Vegetarian</option>
                   <option value="3">Omnivorous</option>
-                  <option value="1">Vegan</option>
                 </select>
                 <button type="submit">Save</button>
               </div>
