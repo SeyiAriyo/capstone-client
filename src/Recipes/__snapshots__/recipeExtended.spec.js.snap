@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipeExtended /> renders Recipe Extended with recipe info 1`] = `
+<main
+  className="expanded-main"
+>
+  <section
+    className="recipe-expanded"
+  >
+    <div
+      className="recipe-name-icon-div"
+    >
+      <h2>
+        test-recipe
+      </h2>
+    </div>
+    <div
+      className="recipe-specs-make-div"
+    >
+      <div
+        className="specs-div"
+      >
+        <h3>
+          Ingredients:
+        </h3>
+        <ul>
+          <li>
+            step1
+          </li>
+          <li>
+            step2
+          </li>
+          <li>
+            step3
+          </li>
+        </ul>
+      </div>
+      <div
+        className="make-div"
+      >
+        <h3>
+          Steps:
+        </h3>
+        <p>
+          do the thing and test it
+        </p>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Add to Favorites
+        </button>
+      </div>
+    </div>
+  </section>
+  <button
+    className="go-back"
+    onClick={[Function]}
+  >
+    Go Back
+  </button>
+</main>
+`;

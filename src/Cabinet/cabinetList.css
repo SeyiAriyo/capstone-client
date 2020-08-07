@@ -1,0 +1,15 @@
+.cabinetlist-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .cabinetlist-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 30vw;
+  }
+}

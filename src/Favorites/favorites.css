@@ -1,0 +1,31 @@
+.favorites-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.fav-search {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  padding: 5px;
+  background-color: #067368;
+  border: thin solid #025951;
+  border-radius: 0 10px 0 10px;
+}
+
+.fav-search label {
+  color: #DCF2F0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 720px) {
+  .favorites-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

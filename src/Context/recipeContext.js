@@ -1,32 +1,32 @@
 import React, { Component } from 'react'
 
 export const nullRecipe = {
-    recipe_name: '',
-    recipe_ingredients: [],
-    recipe_prep: '',
-    recipe_img: ''
+  recipe_name: '',
+  recipe_ingredients: [],
+  recipe_prep: '',
+  recipe_img: ''
 }
 
 export const RecipeContext = React.createContext({
-    recipe: nullRecipe,
-    error: null,
-    favoriteList: [],
-    recipeType: 'all',
-    setError: () => {},
-    clearError: ()=> {},
-    setRecipe: () => {},
-    clearRecipe: ()=> {},
-    setFavoriteList: () => {},
-    setRecipeType: () => {},
-    addFavorite: () => {}
-  })
+  recipe: nullRecipe,
+  error: null,
+  favoriteList: [],
+  ingredient: 'all',
+  setError: () => {},
+  clearError: ()=> {},
+  setRecipe: () => {},
+  clearRecipe: ()=> {},
+  setFavoriteList: () => {},
+  setIngredient: () => {},
+  addFavorite: () => {}
+})
 
-  export default RecipeContext
+export default RecipeContext
 
 export class RecipeProvider extends Component {
   state = {
     favoriteList: [],
-    recipeType: 'all',
+    ingredient: 'all',
     recipe: nullRecipe,
     error: null
   }
@@ -56,8 +56,8 @@ export class RecipeProvider extends Component {
     this.setState({ favoriteList: [] })
   }
 
-  setRecipeType = (recipeType) => {
-    this.setState({ recipeType })
+  setIngredient = (ingredient) => {
+    this.setState({ ingredient })
   }
 
   addFavorite = (recipe) => {
@@ -75,7 +75,7 @@ export class RecipeProvider extends Component {
   render() {
     const value = {
       favoriteList: this.state.favoriteList,
-      recipeType: this.state.recipeType,
+      ingredient: this.state.ingredient,
       recipe: this.state.recipe,
       error: this.state.error,
       setError: this.setError,
@@ -84,7 +84,7 @@ export class RecipeProvider extends Component {
       clearRecipe: this.clearRecipe,
       setFavoriteList: this.setFavoriteList,
       clearFavoriteList: this.clearFavoriteList,
-      setRecipeType: this.setRecipeType,
+      setIngredient: this.setIngredient,
       addFavorite: this.addFavorite,
       removeFavorite: this.removeFavorite
     }

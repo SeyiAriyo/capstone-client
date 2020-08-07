@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 720px) {
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+  }
+}

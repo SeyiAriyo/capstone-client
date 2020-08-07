@@ -1,26 +1,21 @@
-import React, { Component } from 'react'
-import { Route, Link, Switch, withRouter } from 'react-router-dom'
-import Store from './store'
+import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import Nav from './Nav/nav-top';
 import Footer from './Nav/footer';
 import Recipes from './Recipes/recipes';
-import RecipePage from './RecipePage/RecipePage';
+import Cabinet from './Cabinet/cabinet';
+import AddIngredient from './AddIngredient/addIngredient';
+import MyRecipes from './myRecipes/myRecipes';
 import Favorites from './Favorites/favorites';
-import RecipeExtended from './Recipes/recipeExtended.js';
+import RecipeExtended from './Recipes/recipeExtended';
 import UserRecipeExtended from './/userRecipesCard/userRecipeExtended';
-import AddRecipe from './AddRecipe/AddRecipe.js'
+import AddRecipe from './addRecipe/addRecipe';
 import Landing from './Login/landing';
 import PrivateRoute from './Utils/PrivateRoute';
 import PublicOnlyRoute from './Utils/PublicOnlyRoute';
+import './App.css';
 
-import config from './config'
 import { library } from '@fortawesome/fontawesome-svg-core';
-
-
-
-import AppContext from './Context/AppContext'
-import './App.css'
-
 import {
   faGlassWhiskey,
   faGlassMartiniAlt,
@@ -29,21 +24,25 @@ import {
 library.add(faGlassWhiskey, faGlassMartiniAlt);
 
 class App extends Component {
-
-    render() {
-        return (
-          <>
-            <Nav/>
+  render() {
+    return (
+      <>
+        <Nav />
+        <div className='parallax'>
+          <div className='parallax_layer parallax_layer-back'></div>
+          <div className='parallax_layer parallax_layer-base'>
             <PrivateRoute exact path='/recipes' component={Recipes} />
 
             <PrivateRoute path='/recipes/:id' component={RecipeExtended} />
 
-            
+            <PrivateRoute path='/cabinet' component={Cabinet} />
+
+            <PrivateRoute path='/add-ingredient' component={AddIngredient} />
 
             <PrivateRoute
-                exact
-                path='/my-recipes/:user_id'
-                component={RecipePage}
+              exact
+              path='/my-recipes/:user_id'
+              component={MyRecipes}
             />
 
             <PrivateRoute
@@ -56,13 +55,12 @@ class App extends Component {
             <PrivateRoute path='/favorites' component={Favorites} />
 
             <PublicOnlyRoute exact path='/' component={Landing} />
-
-            <Footer/>
-
-          </>
-        )
-
-    }
+          </div>
+        </div>
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default withRouter(App);

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipeList /> renders without crashing 1`] = `
+<ul
+  aria-live="polite"
+  className="recipe-list"
+>
+  <a
+    href="/recipes/1"
+    onClick={[Function]}
+  >
+    <li
+      className="recipe-li"
+    >
+      <h2>
+        Test Recipe 1
+      </h2>
+    </li>
+  </a>
+  <a
+    href="/recipes/2"
+    onClick={[Function]}
+  >
+    <li
+      className="recipe-li"
+    >
+      <h2>
+        Test Recipe 2
+      </h2>
+    </li>
+  </a>
+  <a
+    href="/recipes/3"
+    onClick={[Function]}
+  >
+    <li
+      className="recipe-li"
+    >
+      <h2>
+        Test Recipe 3
+      </h2>
+    </li>
+  </a>
+</ul>
+`;

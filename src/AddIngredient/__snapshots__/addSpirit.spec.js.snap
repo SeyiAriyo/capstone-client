@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddSpirit /> renders as expected 1`] = `
+<main
+  className="spirit_main"
+>
+  <form
+    className="add-spirit-form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="namebar"
+    >
+      <label
+        htmlFor="spirit_name"
+      >
+        Spirit Name:
+         
+      </label>
+      <input
+        id="spirit_name"
+        name="spirit_name"
+        placeholder="Ex: Espolon"
+        type="text"
+      />
+    </div>
+    <div
+      className="spirit-select-button-div"
+    >
+      <label
+        htmlFor="spirit_id"
+      >
+        Spirit:
+      </label>
+      <select
+        id="spirit_id"
+        name="spirit_id"
+      >
+        <option
+          value="2"
+        >
+          Vodka
+        </option>
+        <option
+          value="3"
+        >
+          Gin
+        </option>
+        <option
+          value="1"
+        >
+          Tequila
+        </option>
+        <option
+          value="4"
+        >
+          Bourbon
+        </option>
+        <option
+          value="7"
+        >
+          Rye
+        </option>
+        <option
+          value="5"
+        >
+          Scotch
+        </option>
+        <option
+          value="6"
+        >
+          Amaro
+        </option>
+        <option
+          value="8"
+        >
+          Cognac
+        </option>
+        <option
+          value="9"
+        >
+          Rum
+        </option>
+      </select>
+      <button
+        type="submit"
+      >
+        Save
+      </button>
+    </div>
+  </form>
+  <button
+    className="go-back"
+    onClick={[Function]}
+    type="button"
+  >
+    Go Back
+  </button>
+</main>
+`;

@@ -1,0 +1,33 @@
+body {
+  /* background-color: #DCF2F0; */
+  font-family: 'Josefin Slab', serif;
+}
+
+main {
+  margin-bottom: 75px;
+  margin-top: 75px;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax_layer-base {
+  transform: translateZ(0);
+  z-index: 4;
+}
+.parallax_layer-back {
+  transform: translateZ(-5px) scale(6);
+  background-image: url(https://www.worldofwallpaper.com/media/catalog/product/cache/a13f2d0ee5dc2e18e92742d73c48d042/c/w/cwv043_ash_branch_wallpaper_green_ae1.jpg);
+  background-size: 300px;
+  min-height: 150vh;
+}

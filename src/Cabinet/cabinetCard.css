@@ -1,0 +1,71 @@
+.cabinet-li {
+  border-bottom: 1px solid #025951;
+  border-right: 1px solid #025951;
+  border-radius: 0 10px 0 0;
+  background-color: #067368;
+  width: 170px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 10px auto;
+  text-align: center;
+  align-items: center;
+}
+
+.cabinet-li button {
+  height: 20px;
+  width: 100px;
+  padding: 2px;
+  background-color: #DCF2F0;
+  border: thin solid #025951;
+  border-radius: 0 10px 0 10px;
+}
+
+.cabinet-li button:hover {
+  background-color: #F21B07;
+}
+
+.cabinet-li h3,
+.cabinet-li h4 {
+  margin: 0;
+  color: #DCF2F0;
+}
+
+.cabinet-li h4 {
+  padding: 5px 0;
+  padding-top: 5px;
+}
+
+/* .cabinet-li h3 {
+  font-size: 24px;
+  color: black;
+  background-color: #A6864B;
+  border: 1px solid #025951;
+  border-radius: 5px;
+  height: 80px;
+  padding-top: 18px;
+} */
+
+.cabinet-li .header-box {
+  background-color: #025951;
+  width: 150px;
+}
+
+.cabinet-li h3 {
+  padding: 10px 0;
+  font-size: 24px;
+  color: #DCF2F0;
+}
+
+.spirit-icon {
+  width: 100px;
+  height: 70px;
+  align-self: center;
+}
+
+.spirit-icon h2 {
+  margin: 20px 0 0 0;
+  font-size: 40px;
+  color: #DCF2F0;
+}

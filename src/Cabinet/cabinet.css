@@ -1,0 +1,34 @@
+.cabinet-main {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.cabinet-nav a {
+  color: #DCF2F0;
+  background-color: #067368;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 5px;
+  border-bottom: 1px solid #025951;
+  border-right: 1px solid #025951;
+  border-radius: 10px 10px 0 0;
+}
+
+.cabinet-nav a:first-child {
+  border-radius: 0 10px 0 10px;
+}
+
+.cabinet-nav a:last-child {
+  border-radius: 10px 0 10px 0;
+}
+
+.cabinet-nav a:hover {
+  background: #025951;
+}
+
+@media screen and (min-width: 750px) {
+  .cabinet-lists {
+    display: flex;
+    justify-content: space-around;
+  }
+}

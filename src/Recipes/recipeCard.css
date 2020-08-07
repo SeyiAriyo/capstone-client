@@ -1,0 +1,37 @@
+.recipe-li {
+  border: 1px solid #025951;
+  border-radius: 0 10px;
+  background-color: #067368;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  margin: 10px auto;
+}
+
+.recipe-li:hover {
+  background-color: #025951;
+}
+
+.recipe-li h2 {
+  font-weight: 600;
+  color: #DCF2F0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.recipe-icon {
+  color: #DCF2F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+@media screen and (min-width: 720px) {
+  .recipe-li {
+    margin: 10px 5px;
+  }
+}

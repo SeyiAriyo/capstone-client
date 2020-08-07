@@ -1,0 +1,28 @@
+.header-box {
+  border-top: 1px solid #DCF2F0;
+  border-bottom: 1px solid #DCF2F0;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100px;
+}
+
+.nav-bar-top {
+  background-color: #067368;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  border-bottom: 1px solid #025951;
+  z-index: 5;
+}
+
+.nav-bar-top h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 10px;
+  color: #DCF2F0;
+}

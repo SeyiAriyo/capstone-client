@@ -6,7 +6,7 @@ export default function Nav(props) {
     <>
     <nav className='nav-bar-top'>
       <div className='header-box'>
-        <h1>Welcome</h1>
+        <h1>CookBook</h1>
       </div>
     </nav>
     </>

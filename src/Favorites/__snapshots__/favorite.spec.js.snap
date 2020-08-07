@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Favorites /> renders as expected 1`] = `
+<main
+  className="favorites-main"
+>
+  <h2>
+    Your Favorite Cocktails
+  </h2>
+  <label
+    htmlFor="spirit-search"
+  >
+    Spirit:
+  </label>
+  <select
+    id="spirit-search"
+    name="spirit-search"
+    onChange={[Function]}
+  >
+    <option
+      value="all"
+    >
+      All
+    </option>
+    <option
+      value="2"
+    >
+      Vodka
+    </option>
+    <option
+      value="3"
+    >
+      Gin
+    </option>
+    <option
+      value="1"
+    >
+      Tequila
+    </option>
+    <option
+      value="4"
+    >
+      Bourbon
+    </option>
+    <option
+      value="7"
+    >
+      Rye
+    </option>
+    <option
+      value="5"
+    >
+      Scotch
+    </option>
+    <option
+      value="6"
+    >
+      Amaro
+    </option>
+    <option
+      value="8"
+    >
+      Cognac
+    </option>
+    <option
+      value="9"
+    >
+      Rum
+    </option>
+  </select>
+  <ul
+    aria-live="polite"
+    className="favorites-list"
+  />
+</main>
+`;
+
+exports[`<Favorites /> renders as expected with favorites 1`] = `
+<main
+  className="favorites-main"
+>
+  <h2>
+    Your Favorite Cocktails
+  </h2>
+  <label
+    htmlFor="spirit-search"
+  >
+    Spirit:
+  </label>
+  <select
+    id="spirit-search"
+    name="spirit-search"
+    onChange={[Function]}
+  >
+    <option
+      value="all"
+    >
+      All
+    </option>
+    <option
+      value="2"
+    >
+      Vodka
+    </option>
+    <option
+      value="3"
+    >
+      Gin
+    </option>
+    <option
+      value="1"
+    >
+      Tequila
+    </option>
+    <option
+      value="4"
+    >
+      Bourbon
+    </option>
+    <option
+      value="7"
+    >
+      Rye
+    </option>
+    <option
+      value="5"
+    >
+      Scotch
+    </option>
+    <option
+      value="6"
+    >
+      Amaro
+    </option>
+    <option
+      value="8"
+    >
+      Cognac
+    </option>
+    <option
+      value="9"
+    >
+      Rum
+    </option>
+  </select>
+  <ul
+    aria-live="polite"
+    className="favorites-list"
+  >
+    <a
+      href="/recipes/2"
+      onClick={[Function]}
+    >
+      <li
+        className="recipe-li"
+      >
+        <h2>
+          test fave 1
+        </h2>
+      </li>
+    </a>
+    <a
+      href="/recipes/3"
+      onClick={[Function]}
+    >
+      <li
+        className="recipe-li"
+      >
+        <h2>
+          test fave 2
+        </h2>
+      </li>
+    </a>
+  </ul>
+</main>
+`;

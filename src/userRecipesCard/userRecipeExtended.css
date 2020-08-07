@@ -1,0 +1,23 @@
+.edit,
+.delete {
+  height: 20px;
+  width: 100px;
+  padding: 2px 6px;
+  background-color: #DCF2F0;
+  border: thin solid #025951;
+  border-radius: 0 10px 0 10px;
+}
+
+.edit:hover {
+  background-color: #A6864B;
+}
+
+.delete:hover {
+  background-color: #F21B07;
+}
+
+.edit-delete-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
