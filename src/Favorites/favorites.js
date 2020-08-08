@@ -44,7 +44,7 @@ class Favorites extends Component {
   render() {
     return (
       <main className="favorites-main">
-        <h2>Your Favorite Cocktails</h2>
+        <h2>Your Favorite Recipes</h2>
         <div className="fav-search">
           <label htmlFor="ingredient-search">Ingredient:</label>
           <select

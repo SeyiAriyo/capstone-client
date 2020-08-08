@@ -27,7 +27,8 @@ main {
 }
 .parallax_layer-back {
   transform: translateZ(-5px) scale(6);
-  background-image: url(https://www.worldofwallpaper.com/media/catalog/product/cache/a13f2d0ee5dc2e18e92742d73c48d042/c/w/cwv043_ash_branch_wallpaper_green_ae1.jpg);
+  /* background-image: url(https://www.worldofwallpaper.com/media/catalog/product/cache/a13f2d0ee5dc2e18e92742d73c48d042/c/w/cwv043_ash_branch_wallpaper_green_ae1.jpg); */
+  
   background-size: 300px;
   min-height: 150vh;
 }
