@@ -22,8 +22,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "now --prod ./build",
     "eject": "react-scripts eject"
   },
+  "proxy": "https://vast-plains-52676.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },
