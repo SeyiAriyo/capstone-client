@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-.spirit_main {
+.ingredient_main {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
 }
 
-.add-spirit-form {
+.add-ingredient-form {
   border: 1px solid #025951;
   background-color: #A6864B;
   padding: 20px;
@@ -19,14 +19,14 @@
   font-size: 18px;
 }
 
-.add-spirit-form input {
+.add-ingredient-form input {
   width: 100%;
   border-radius: 0 10px 0 10px;
   border: thin solid #025951;
   padding: 2px 10px;
 }
 
-.spirit-add-alert {
+.ingredient-add-alert {
   color: #067368;
   font-weight: 600;
   font-size: 20px;
@@ -36,16 +36,16 @@
   border-top: 1px solid #067368;
 }
 
-.spirit-select-button-div {
+.ingredient-select-button-div {
   width: 100%;
   padding-top: 10px;
 }
 
-.spirit-select-button-div label {
+.ingredient-select-button-div label {
   padding-right: 5px;
 }
 
-.spirit-select-button-div button {
+.ingredient-select-button-div button {
   float: right;
   height: 20px;
   width: 100px;
@@ -55,7 +55,7 @@
   border-radius: 10px 0 10px 0;
 }
 
-.spirit-select-button-div button:hover {
+.ingredient-select-button-div button:hover {
   background-color: #025951;
   color: #DCF2F0;
   cursor: pointer;

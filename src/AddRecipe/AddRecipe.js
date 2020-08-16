@@ -22,12 +22,13 @@ class AddRecipe extends Component {
     const { ingredientsList, prep, ingredientCat } = this.state;
     const recipe_ingredients = ingredientsList.join();
     const { userRecipeList } = this.context;
+        // const { spirit_name, spirit_id } = e.target
     const user_id = TokenService.getUserId();
     const recipe = {
       recipe_name: e.currentTarget.recipeName.value,
       ingredient_id: ingredientCat,
       recipe_prep: prep,
-      // recipe_img: e.currentTarget.icon.value,
+        // recipe_img: e.currentTarget.icon.value,
       recipe_ingredients,
     };
     RecipeApiService.postUserRecipe(user_id, recipe)
