@@ -28,7 +28,7 @@ class AddRecipe extends Component {
       recipe_name: e.currentTarget.recipeName.value,
       ingredient_id: ingredientCat,
       recipe_prep: prep,
-        // recipe_img: e.currentTarget.icon.value,
+      recipe_img: e.currentTarget.icon.value,
       recipe_ingredients,
     };
     RecipeApiService.postUserRecipe(user_id, recipe)
@@ -148,7 +148,30 @@ class AddRecipe extends Component {
             ></textarea>
             {prepShow && this.renderPrep()}
           </div>
-          
+          <div className="icon-select">
+            <input
+              type="radio"
+              id="rocks"
+              name="icon"
+              value="rocksIcon"
+              defaultChecked
+              onChange={this.handleIcon}
+            />
+            <label htmlFor="rocks">
+              <FontAwesomeIcon icon="glass-whiskey" />
+            </label>
+            <br />
+            <input
+              type="radio"
+              id="cocktail"
+              name="icon"
+              value="cocktailIcon"
+              onChange={this.handleIcon}
+            />
+            <label htmlFor="cocktail">
+              <FontAwesomeIcon icon="glass-martini-alt" />
+            </label>
+          </div>
           <div className="recipe-select-button-div">
             <label htmlFor="ingredient_id">Ingredient:</label>
             <select

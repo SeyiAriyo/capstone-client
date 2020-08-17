@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "alias":"seyi-recipe-app",
+  "name": "linus",
+  "routes": [
+      { "handle": "filesystem" },
+      { "src": "/.*", "dest": "/index.html" }
+  ]
+}

@@ -14,7 +14,6 @@ import Landing from './Login/landing';
 import PrivateRoute from './Utils/PrivateRoute';
 import PublicOnlyRoute from './Utils/PublicOnlyRoute';
 import './App.css';
-
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faGlassWhiskey,

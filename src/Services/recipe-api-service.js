@@ -33,6 +33,7 @@ const RecipeApiService = {
   },
 
   getUserRecipeByUser(user_id, id) {
+    console.log(id);
     return fetch(`${config.API_ENDPOINT}/user-recipes/${user_id}`, {
       headers: {
         authorization: `bearer ${TokenService.getAuthToken()}`,
@@ -65,7 +66,7 @@ const RecipeApiService = {
       body: JSON.stringify({ user_id, id: id }),
     })
       .then((res) => {
-        // console.log(res);
+        console.log(res);
         return res;
       })
       .then((res) =>
