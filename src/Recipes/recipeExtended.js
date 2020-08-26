@@ -38,7 +38,6 @@ class RecipeExtended extends Component {
     const user_id = TokenService.getUserId();
     RecipeApiService.postFavorite(user_id, recipe_id)
       .then((res) => {
-        console.log(res);
         return res;
       })
       .then(this.context.addFavorite);

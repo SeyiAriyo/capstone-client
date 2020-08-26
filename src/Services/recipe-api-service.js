@@ -65,7 +65,6 @@ const RecipeApiService = {
       body: JSON.stringify({ user_id, id: id }),
     })
       .then((res) => {
-        console.log(res);
         return res;
       })
       .then((res) =>
