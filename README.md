@@ -1,5 +1,7 @@
 # Recipes
 
+[Live](https://capstone-client-q6wyxlos3.vercel.app/)
+
 ## DEMO Account
 
 Username: user66
@@ -24,3 +26,16 @@ If there is a recipe that you enjoyed, and want to make it more often, then save
 ### Recording your own Recipes
 
 If you're interested in making some recipes of your own and want a place to keep them, you can view and add your own custom recipes. Just type in the name, ingredients, recipe type, and preperation instructions and it will be saved to our database for you to view anytime.
+
+## Technology Used
+
+- React
+- Express
+- CSS3
+- Javascript
+- Node
+- PostgreSQL
+
+## API
+
+[Link](https://github.com/SeyiAriyo/capstone-client) to API GitHub
