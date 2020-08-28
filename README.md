@@ -1,6 +1,6 @@
 # Recipes
 
-[Live](https://capstone-client-q6wyxlos3.vercel.app/)
+[Live](https://capstone-client.seyiariyo.vercel.app)
 
 ## DEMO Account
 
@@ -51,4 +51,4 @@ If you're interested in making some recipes of your own and want a place to keep
 
 ## API
 
-[Link](https://github.com/SeyiAriyo/capstone-client) to API GitHub
+[Link](https://github.com/SeyiAriyo/capstone-server) to API GitHub
