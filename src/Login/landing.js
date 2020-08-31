@@ -159,7 +159,7 @@ export default class Landing extends Component {
             <button type="submit">Login</button>
           </form>
 
-          <div className='white'>
+          <div id='white'>
            
             <p>Username: user66 password: 12345678aA</p>
             <hr/>

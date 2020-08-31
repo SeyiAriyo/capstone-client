@@ -78,7 +78,7 @@
   color: #025951;
 }
 
-.white {
+#white {
   background-color: #FFF;
   border-radius: 10px;
   box-shadow: 3px 3px 7px #B6B6B6;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .tabContent,.white{
+  #white{
     width: 75%;
     margin: auto;
   }
