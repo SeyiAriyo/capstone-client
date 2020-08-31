@@ -159,8 +159,8 @@ export default class Landing extends Component {
             <button type="submit">Login</button>
           </form>
 
-          <div className='green'>
-            <div classname='white'>
+          <div className='white'>
+           
             <p>Username: user66 password: 12345678aA</p>
             <hr/>
             <h2>Hello and welcome to your recipe app!</h2>
@@ -188,7 +188,6 @@ export default class Landing extends Component {
             </ol>
             <hr />
             <p>Click Signup to create an account and get started!</p>
-            </div>
         </div>
         </div>
 

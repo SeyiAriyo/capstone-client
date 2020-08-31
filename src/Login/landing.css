@@ -85,12 +85,7 @@
   margin: 10px;
   padding: 15px;
 }
-.green {
-  background-color: #025951;
-  border-radius: 10px;
-  box-shadow: 3px 3px 7px #B6B6B6;
-  padding: 10px;
-}
+
 
 @keyframes fadeEffect {
   from {
@@ -109,5 +104,10 @@
 
   .tab {
     justify-content: center;
+  }
+
+  .tabContent .white{
+    width: 75%;
+    margin: auto;
   }
 }
