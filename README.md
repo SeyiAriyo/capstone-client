@@ -67,22 +67,18 @@ This is the server used for the Recipe application.
 ```js
 // req.body
 {
-    {   
-        ingredient_name: String,
-        ingredient_id: int,
-        user_id: int,
-    }
+    ingredient_name: String,
+    ingredient_id: int,
+    user_id: int,
 }	
 ```
 
 + `/favorites` accepts POST and DELETE requests. This posts and deletes new favorites, the user_id is sent via the body of the request.
 ```js
 // req.body
-{
-    {   
-        user_id: int,
-        recipe_id: int,
-    }
+{  
+    user_id: int,
+    recipe_id: int,
 }	
 ```
 
