@@ -159,36 +159,7 @@ export default class Landing extends Component {
             <button type="submit">Login</button>
           </form>
 
-          <div className='white'>
-           
-            <p>Username: user66 password: 12345678aA</p>
-            <hr/>
-            <h2>Hello and welcome to your recipe app!</h2>
-            <p>
-            The recipe app is a personal cooking assistant. You can add your favorite and current ingredients in your liquor cabinet to your digital cabinet, and the app will show you what recipes you can make with your ingredients and how! You will also be able to search for recipes by ingredient type and make a shortlist of your favorite ones to try later.
-            This is perfect for those who need help figuring out what to do with the food in their kitchen or for those just eager to discover new recipes.
-            </p>
-
-            <hr/>
-            
-            <h2>How It Works:</h2>
-            <ol>
-                <li>
-                Once Logged in you'll be sent your Cabinet, this is where you'll add and store your ingredients. From here you can access your entire favorite recipes list, as well as a shortlist below where it shows you which favorites you can make based off of the ingredients currently in your cabinet.
-                </li>
-                <li>
-                The recipes page can search by name of recipe, or ingredient type, displaying all the recipes in the database that fit the parameters.
-                </li>
-                <li>
-                After finding a recipe you would like, you can follow the instructions to make it, or save it to your favorites to make later
-                </li>
-                <li>
-                If you're interested in making some recipes of your own and want a place to keep them, you can view and add your own custom recipes. Just type in the name, ingredients, recipe type, and preperation instructions and it will be saved to our database for you to view anytime.
-                </li>
-            </ol>
-            <hr />
-            <p>Click Signup to create an account and get started!</p>
-        </div>
+          
         </div>
 
         <div id="Register" className="tabContent">
@@ -229,6 +200,36 @@ export default class Landing extends Component {
             </div>
             <button type="submit">Register</button>
           </form>
+        </div>
+        <div className='white' id='white'>
+           
+            <p>Username: user66 password: 12345678aA</p>
+            <hr/>
+            <h2>Hello and welcome to your recipe app!</h2>
+            <p>
+            The recipe app is a personal cooking assistant. You can add your favorite and current ingredients in your liquor cabinet to your digital cabinet, and the app will show you what recipes you can make with your ingredients and how! You will also be able to search for recipes by ingredient type and make a shortlist of your favorite ones to try later.
+            This is perfect for those who need help figuring out what to do with the food in their kitchen or for those just eager to discover new recipes.
+            </p>
+
+            <hr/>
+            
+            <h2>How It Works:</h2>
+            <ol>
+                <li>
+                Once Logged in you'll be sent your Cabinet, this is where you'll add and store your ingredients. From here you can access your entire favorite recipes list, as well as a shortlist below where it shows you which favorites you can make based off of the ingredients currently in your cabinet.
+                </li>
+                <li>
+                The recipes page can search by name of recipe, or ingredient type, displaying all the recipes in the database that fit the parameters.
+                </li>
+                <li>
+                After finding a recipe you would like, you can follow the instructions to make it, or save it to your favorites to make later
+                </li>
+                <li>
+                If you're interested in making some recipes of your own and want a place to keep them, you can view and add your own custom recipes. Just type in the name, ingredients, recipe type, and preperation instructions and it will be saved to our database for you to view anytime.
+                </li>
+            </ol>
+            <hr />
+            <p>Click Signup to create an account and Login to get started!</p>
         </div>
       </main>
     );
