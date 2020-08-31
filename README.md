@@ -24,7 +24,7 @@ Once you add some ingredients to your cabinet it's time to look for some recipes
 
 ![Recipes](./READMEimg/recipes.png)
 
-After finding a recipe you would like, you can follow the instructions to make i, or save it to your favorites to make later
+After finding a recipe you would like, you can follow the instructions to make it, or save it to your favorites to make later
 
 ![Recipes View](./READMEimg/ViewRecipes.png)
 
